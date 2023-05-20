@@ -1,7 +1,8 @@
 .header-blue {
   background:linear-gradient(135deg, hsl(0, 0%, 0%), #ffffff);
   background-color:#184e8e;
-  padding-bottom:80px;
+  /* padding-bottom:80px; */
+  padding-top: 12px;
   font-family:'Source Sans Pro', sans-serif;
 }
 
@@ -14,10 +15,10 @@
 } */
 @media (max-width:768px) {
   .header-blue {
-   
     margin: 63px 0px 0px 0px;
   }
 }
+
 
 .header-blue .navbar {
   background:transparent;
@@ -32,12 +33,14 @@ width: 100vw;
 top: 0px;
 z-index: 99;
 background-color: #000000;
+padding: 12px 19px 13px 32px;
 }
 
 @media (min-width:768px) {
   .header-blue .navbar {
     padding-top:1rem;
     padding-bottom:1rem;
+    
   }
 }
 
@@ -61,16 +64,19 @@ background-color: #000000;
     margin:0;
   }
 }
+.col-12{
+  padding: 19px 0px 26px 0px;
+}
 
-.header-blue .navbar .navbar-collapse span .login {
+/* .header-blue .navbar .navbar-collapse span .login {
   color:#d9d9d9;
   margin-right:.5rem;
   text-decoration:none;
-}
+} */
 
-.header-blue .navbar .navbar-collapse span .login:hover {
+/* .header-blue .navbar .navbar-collapse span .login:hover {
   color:#fff;
-}
+} */
 
 .header-blue .navbar .navbar-toggler {
   border-color:rgba(255,255,255,0.3);
@@ -135,7 +141,7 @@ background-color: #000000;
   color:#d9d9d9;
 }
 
-.header-blue .navbar .form-inline .search-field {
+/* .header-blue .navbar .form-inline .search-field {
   display:inline-block;
   width:80%;
   background:none;
@@ -146,11 +152,11 @@ background-color: #000000;
   box-shadow:none;
   color:inherit;
   transition:border-bottom-color 0.3s;
-}
+} */
 
-.header-blue .navbar .form-inline .search-field:focus {
+/* .header-blue .navbar .form-inline .search-field:focus {
   border-bottom:1px solid #ccc;
-}
+} */
 
 .header-blue .hero {
   margin-top:20px;
@@ -241,6 +247,8 @@ background-color: #000000;
   margin: 2vh 11px;;
   font-size: 22px;
 }
+
+/* when we switch on mobile this arrow come on animation of service  */
 .arrow{
   visibility: hidden;
 }
@@ -248,18 +256,19 @@ background-color: #000000;
 .social-icon a i{
   opacity: 0.6;
     font-size: 20px !important;
+    margin: 2.5px;
   }
 
 .social-icon a i:hover{
 opacity: 1;
-  font-size: 24px !important;
+  font-size: 21px !important;
 }
 
 @media only screen and (max-width: 991px) and (min-width: 767px) {
   .navbar-nav,.form-inline{
    display: contents !important;
   }
-.navbar-text .login{
+/* .navbar-text .login{
   display: ruby !important;
 }
   .signup-btn{
@@ -267,7 +276,7 @@ opacity: 1;
   }
   .form-group{
     margin: 0px -18px 0px 1px;
-  }
+  } */
 }
 
 
@@ -437,7 +446,7 @@ margin: -4px 8px 24px 0px;
 }
 
 .social-list li a :hover{
-  font-size: 30px
+  font-size: 26.5px
 }
 
 .buttons button:nth-child(1){
